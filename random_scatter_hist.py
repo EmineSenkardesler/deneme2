@@ -10,7 +10,7 @@ def ensure_output_directory(output_directory: Path) -> Path:
     output_directory.mkdir(parents=True, exist_ok=True)
     return output_directory
 
-
+#asdadas
 def save_random_scatter(rng: np.random.Generator, output_directory: Path) -> Path:
     num_points: int = 300
     x_values = rng.normal(0.0, 1.0, size=num_points)
